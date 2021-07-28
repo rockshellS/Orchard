@@ -52,3 +52,20 @@ body h2 {
 .box h3 {
     justify-content: center;
 }
+
+.btn {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color:#c9eef5;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 5px
+}
+
+.btn:hover,
+.btn:focus {
+    background: #8fd7f3;
+}
