@@ -1,67 +1,52 @@
-
-* {
-    box-sizing: border-box ;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(32, 42, 44);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow-x: hidden;
+    height: 100vh;
+    /* overflow: hidden; */
     margin: 0;
-    color: orangered
-}
-
-
-body h2 {
-    font-size: 45px;
-    margin: 10px;
-   
-}
-
-.box {
     background-color: rgb(58, 70, 73);
+    color: #fff;
+}
+
+.container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    height: 400px;
-    margin: 10px;
-    border-radius: 20px;
-    box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
-    transform: translateX(400%);
-    transition: transform 0.4s ease;
+    text-align: center;
+    padding: 10px;
+    margin:50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.box:nth-last-of-type(even) {
-    transform: translateX(-400%);
+/* .column {
+   margin: 0;
+   padding: 10%;
+   margin-top: 0;
+} */
+
+.strong {
+    color: orangered;
+}
+ h2 {
+    padding: 10%;
+    color:paleturquoise
+
+    
+}
+h4 {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 3%;
+    margin: 0;
+    color: orangered;
 }
 
-.box.show {
-    transform: translateX(0);
-} 
 
-.box img {
-    width: 499px;
-    height: 399px;
-    border-radius: 20px;
-   
-}
 
-.box h3 {
-    justify-content: center;
-   
-}
-
-.btn1 {
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
+    left: 50%;
     font-weight: bold;
     font-size: 1rem;
     padding: 1.5rem;
@@ -73,8 +58,8 @@ body h2 {
     border-left:#FF7F00 solid 0.4rem ;
 }
 
-.btn1:hover,
-.btn1:focus {
+.btn:hover,
+.btn:focus {
     background: #FF0000;
 }
 
@@ -93,10 +78,9 @@ body h2 {
     border-right:#0000FF solid 0.4rem;
     border-bottom: #00FF00 solid 0.4rem;
     border-left:#FF7F00 solid 0.4rem ;
-    margin-top: 1%;
 }
 
 .btn2:hover,
 .btn2:focus {
-    background: #4B0082;
+    background: #FF0000;
 }
